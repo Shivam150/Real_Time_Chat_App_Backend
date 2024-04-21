@@ -20,8 +20,11 @@ const userSchema = new mongoose.Schema({
     profilePic : {
         type:String,
         default:"default.jpg"
+    },
+    isDeleted: {
+        type: Boolean,
+        default: false
     }
-
 }, {timestamps:true});
 
 const userModel = mongoose.model("User", userSchema);

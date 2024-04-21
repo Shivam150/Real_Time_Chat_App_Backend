@@ -35,9 +35,9 @@ Ensure you have Node.js and npm (Node Package Manager) installed on your machine
 
 # Installation
   Clone the repository:
-  git clone https://github.com/your-username/Real_Time_chat_app_backend.git
+  git clone https://github.com/shivam150/Real_Time_chat_app_backend.git
   Navigate to the project directory:
-  cd chat_app_backend
+  cd real_time_chat_app_backend
 # Install dependencies:
   npm install
 # Setting Up Environment Variables
@@ -46,13 +46,19 @@ Ensure you have Node.js and npm (Node Package Manager) installed on your machine
    PORT=3000
    MONGODB_URI=your_mongodb_connection_uri
    JWT_SECRET=your_jwt_secret_key
-   Replace your_mongodb_connection_uri with your MongoDB connection URI and your_jwt_secret_key with a secret key for JWT token generation.
+  Replace your_mongodb_connection_uri with your MongoDB connection URI and your_jwt_secret_key with a secret key for JWT token generation.
 # Start the development server using the following command:
    npm start
 The server will start running on the specified port (default is 3000) and can be accessed via HTTP requests.
 
 # Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes. Make sure to follow the contribution guidelines and adhere to the code of conduct.
+
+# Test_APIs
+<!-- test api on postmen -->
+To test API endpoints locally, use an app like Postman or Insomnia. 
+You'll need to send HTTP requests to localhost at the appropriate route
+and port (default is 9001).
 
 # License
 This project is licensed under the MIT License, which means you are free to use, modify, and distribute the code as long as you include the original license and copyright notice.
