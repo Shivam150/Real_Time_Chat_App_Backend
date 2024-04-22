@@ -29,7 +29,7 @@ const MESSAGES = {
     PASSWORD_CHANGED: "Password changed successfully",
     OLD_PASS_NOT_MATCH: "Old password not match",
     PHONE_EXIST: "Phone already exist",
-    EMAIL_EXIST: "Email already exist",
+    EMAIL_EXIST: "Email already exist", 
     EMAIL_VERIFY_FAILED: "Email verify invalid",
     EMAIL_VERIFY_INVALID: "Email verify invalid",
     EMAIL_RESEND_SUCCESS: "Email resend success",

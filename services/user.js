@@ -1,4 +1,4 @@
-import userModel from  "../models/user";
+const  userModel = require("../models/user");
 const utility = require("../utilities/utility");
 const functions = require("../utilities/functions")
 
@@ -19,7 +19,7 @@ const signUp = async (data) => {
             user = await userModel.create(data);
             await functions.sendOtpToMail(data.email);
         }else {
-            throw process.lang.DUPLICATE_EMAIL;
+            return process.lang.EMAIL_EXIST;
         }
 
         return user;
@@ -27,6 +27,10 @@ const signUp = async (data) => {
     } catch (error) {
         throw error;
     }
+}
+
+const login = async (data) =>  {
+    
 }
 
 
